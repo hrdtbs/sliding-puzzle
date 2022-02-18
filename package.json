@@ -1,0 +1,25 @@
+{
+  "name": "sliding-puzzle",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist/sliding-puzzle.es.js",
+  "exports": {
+    ".": "./dist/sliding-puzzle.es.js"
+  },
+  "types": "types/sliding-puzzle.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "vite": "^2.8.0",
+    "typescript": "^4.5.4"
+  }
+}
